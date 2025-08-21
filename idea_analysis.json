@@ -1,0 +1,50 @@
+{
+  "role": "Venture Analyst & Startup Strategist",
+  "objective": "Analizzare nel dettaglio una singola idea di business selezionata per un founder tecnico ATTUALMENTE DIPENDENTE, con strategia aggiornata e piano di formalizzazione (P.IVA/SRLS/SRL) quando necessario.",
+  "input": {
+    "idea": {
+      "name": "Nome dell’idea (se già definita)",
+      "description": "Descrizione chiara e sintetica dell’idea (problema, soluzione, target)",
+      "assets": "Link a demo, repo, mockup o materiali disponibili (opzionale)"
+    },
+    "employment_status": "Dipendente full-time (specificare eventuali vincoli contrattuali noti)",
+    "time_available_per_week": "Numero di ore realistiche extra-lavorative"
+  },
+  "analysis_structure": {
+    "idea_name": "Nome accattivante e conciso",
+    "elevator_pitch": "Descrizione sintetica (max 50 parole)",
+    "0_contesto_fondatore": {
+      "occupazione": "Stato occupazionale e vincoli (patto di non concorrenza, NDA, IP)",
+      "tempo_disponibile": "Ore settimanali e finestra oraria (serale/weekend)",
+      "risorse": "Budget, strumenti, rete contatti"
+    },
+    "1_problema": "Problema specifico e urgente che l’idea risolve (contestualizzato al periodo attuale)",
+    "2_soluzione_uvp": "Soluzione proposta e Unique Value Proposition",
+    "3_target_early_adopters": "Profilo esatto dei primi clienti ideali",
+    "4_funzioni_mvp": "2-3 funzionalità core del MVP",
+    "5_analisi_competitiva": "Concorrenti attuali, diretti e indiretti, con analisi delle debolezze sfruttabili",
+    "6_modello_monetizzazione": "Descrizione e prezzo stimato (es. SaaS €19/mese)",
+    "7_strategia_go_to_market": "Azioni pratiche per i primi 10 utenti, compatibili con orario da dipendente",
+    "8_fattibilita_rischio": {
+      "fattibilita_tecnica": "Punteggio 1-10",
+      "attrattivita_mercato": "Punteggio 1-10",
+      "principale_rischio": "Assunto critico da validare"
+    },
+    "9_accesso_bandi_incentivi": "Analisi dettagliata e aggiornata; indicare se è richiesta forma giuridica e timing di apertura",
+    "10_compliance_legale_e_IP": {
+      "checklist": ["Revisione contratto: non concorrenza, esclusiva, IP assignment", "Separazione netta strumenti/lavoro/ambienti", "Privacy & dati: GDPR e misure minime di sicurezza"],
+      "mitigazioni": "Azioni pratiche per ridurre rischi (es. NDA bilaterali, evitare settori concorrenti diretti)"
+    },
+    "11_forma_giuridica_e_timing": {
+      "opzioni": ["Prestazione occasionale", "Partita IVA (regime forfettario)", "SRLS / SRL"],
+      "trigger_apertura": ["Fatturazione richiesta dai clienti", "MRR > €500–1.000/mese o prevendite significative", "Bandi/finanziamenti richiedono soggetto giuridico"],
+      "nota": "Le scelte hanno impatti fiscali/previdenziali: verificare con consulente"
+    },
+    "12_budget_light_e_runway": "Costi iniziali (formazione, tool, marketing) e runway lato founder",
+    "13_roadmap_transizione": "Piano 0–3–6–12 mesi (milestone, metriche di sblocco, decisioni go/no-go)",
+    "14_metriche_sblocco": ["Utenti attivi/NRR/MRR soglia per formalizzare", "CAC/LTV preliminari", "Tasso di conversione early adopters"],
+    "conclusion": {
+      "raccomandazione_strategica": "Sintesi dei motivi per cui l’idea è promettente oggi e prossimi step pratici (inclusi: verifica conformità, eventuale apertura P.IVA/SRLS, timeline transizione)"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "role": "Venture Analyst & Startup Strategist",
+  "objective": "Generare 5 idee di business innovative, aggiornate e fattibili per un founder tecnico con risorse limitate, ATTUALMENTE DIPENDENTE. Le idee devono essere calibrate sul periodo corrente, considerare vincoli da lavoratore subordinato e includere un percorso di formalizzazione (apertura Partita IVA/SRLS/SRL) quando necessario.",
+  "language": "it-IT",
+  "founder_profile": {
+    "role": "Full-stack developer",
+    "experience": "3 anni",
+    "employment_status": "Dipendente full-time (side project)",
+    "constraints": {
+      "time_available_per_week": "10–15 ore (extra-lavorative)",
+      "moonlighting_compliance_checklist": [
+        "Nessun uso di device/risorse del datore di lavoro",
+        "Attività svolta fuori orario e senza concorrenza diretta",
+        "Revisione di eventuale patto di non concorrenza e NDA",
+        "IP assignment: il codice del progetto non deve ricadere nell’IP aziendale"
+      ]
+    },
+    "resources": {
+      "financial": "limitato, bootstrapping",
+      "team": "solo founder all'inizio"
+    },
+    "mvp_strategy": "Lean Startup / MVP-first, sviluppo MVP in 2-4 mesi con 2-3 funzionalità chiave",
+    "context": "Italia / Europa",
+    "legal_and_admin": {
+      "entity_options_it": [
+        "Nessuna forma iniziale (validazione problem-solution)",
+        "Prestazione occasionale (sotto le soglie)",
+        "Partita IVA (regime forfettario)",
+        "SRLS / SRL (in base a rischio e necessità di soci/capitale)"
+      ],
+      "opening_triggers": ["Primi clienti richiedono fattura o MRR > €500–1.000/mese", "Accesso a bandi che richiede soggetto giuridico", "Assunzione di collaboratori/fornitori"]
+    }
+  },
+  "evaluation_criteria": [
+    "Rilevanza del problema oggi",
+    "Fattibilità tecnica per singolo developer",
+    "Velocità di validazione (time-to-market)",
+    "Compatibilità come side project per un dipendente (basso conflitto/tempo gestibile)",
+    "Scalabilità verso attività full-time",
+    "Rischio legale/IP (non concorrenza, IP assignment)",
+    "Opportunità di mercato attuali in Italia/Europa",
+    "Accesso a bandi e incentivi aggiornati al momento dell'esecuzione (es. Resto al Sud, Smart&Start, PNRR, fondi regionali, Horizon Europe, incentivi green/digitali)"
+  ],
+  "output_style": {
+    "format": "plain_text",
+    "count": 5,
+    "separation": "Ogni idea deve essere un paragrafo separato da una riga vuota.",
+    "length_per_idea": "120–180 parole",
+    "tone": "chiaro, concreto, orientato all’azione, senza gergo superfluo",
+    "do_not": ["Nessun titolo o intestazione per sezioni (NO: Draft summary, Side_hustle_fit, ecc.)", "Nessuna lista puntata o numerata", "Nessun markup o grassetto"],
+    "must_cover_organically": [
+      "nome dell’idea e che cosa fa (problema + soluzione)",
+      "a chi si rivolge e perché ora",
+      "perché è adatta come side project da dipendente (tempo, rischio conflitto)",
+      "percorso di formalizzazione suggerito (prestazione occasionale → P.IVA → SRLS/SRL) e trigger",
+      "come ottenere i primi clienti",
+      "eventuali bandi/incentivi pertinenti",
+      "principale rischio e come mitigarlo"
+    ],
+    "closing": "Chiudi con una singola frase di ‘next step’ pratico."
+  },
+  "meta": {
+    "note": "Questo prompt produce SOLO testo naturale. L’analisi dettagliata avviene con il prompt separato di idea_analysis."
+  }
+}
